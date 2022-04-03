@@ -1,0 +1,9 @@
+.wrap{
+    border-radius: 20%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    background-color: rgb(204, 29, 29, 0.35);
+    width: 300px;
+    height: auto;
+    }
