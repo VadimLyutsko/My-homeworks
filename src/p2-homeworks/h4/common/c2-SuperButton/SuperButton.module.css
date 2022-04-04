@@ -1,0 +1,45 @@
+.default {
+    text-decoration: none;
+    display: inline-block;
+    padding: 3px 10px;
+    margin: 5px 5px;
+    border-radius: 30px;
+    background-image: linear-gradient(45deg, #6ab1d7 0%, #33d9de 50%, #002878 100%);
+    background-position: 100% 0;
+    background-size: 200% 200%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: 300;
+    color: white;
+    box-shadow: 0 16px 32px 0 rgba(0, 40, 120, .35);
+    transition: .5s;
+}
+
+.default:hover {
+    box-shadow: 0 0 0 0 rgba(0, 40, 120, 0);
+    background-position: 0 0;
+}
+
+
+
+.red {
+    text-decoration: none;
+    display: inline-block;
+    padding: 3px 10px;
+    margin: 5px 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px 40px #091511 inset, 0 0 0 0 #091511;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+    transition: .15s ease-in-out;
+}
+.red:hover {
+    box-shadow: 0 0 10px 0 #ff0000 inset, 0 0 10px 4px #ff0000;
+    color: #ff0000;
+}
+
+.disabled{
+}
+

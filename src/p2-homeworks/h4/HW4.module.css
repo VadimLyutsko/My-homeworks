@@ -1,0 +1,17 @@
+.blue {
+    border-bottom: 5px solid blue; /*Нижняя полоска второго инпута*/
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testSpanError { /*спан для ошибки*/
+    display: flex;
+    justify-content: center;
+    background-color: #a80d51;
+    border-radius: 5px;
+    width: 50px;
+}

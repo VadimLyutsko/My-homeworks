@@ -1,0 +1,20 @@
+.superInput {
+    border-radius: 15px;
+    height: 25px;
+    background-color: #debbbb;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    }
+
+.errorInput { /*основной инпут*/
+    background-color: #da4d4d;
+
+}
+
+.error { /*цвет надписи ошибки*/
+    color: #091511;
+    font-size: larger;
+}
+
+
+

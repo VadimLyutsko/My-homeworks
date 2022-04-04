@@ -1,0 +1,33 @@
+.wrapp {
+display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #99b3ea;
+    width: 300px;
+    height: 150px;
+    margin: auto;
+    border-radius: 50px;
+}
+
+.error {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #d9af0b;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    color: #a84cf6;
+    margin:   0 auto 25px auto   ;
+}
+
+.errorNull {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    margin:auto;
+    width: 50px;
+    height: 40px;
+    margin:   0 auto 25px auto   ;
+}
