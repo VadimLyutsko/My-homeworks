@@ -1,0 +1,13 @@
+.SuperRadio {
+    margin: 1rem;
+}
+
+.SuperRadio label {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    padding: 1rem;
+}
+
+
+
