@@ -23,7 +23,7 @@ function HW8() {
 
 // need to fix any
     const finalPeople = people.map((p: UserType) => (
-        <div key={p._id}>
+        <div key={p._id} className={styles.inMap}>
           <span>{p.name}</span>
             {p.age}
         </div>
@@ -44,8 +44,8 @@ function HW8() {
                 {finalPeople}
                 <div className={styles.buttons}>
                     <div><SuperButton onClick={sortUp}>sort up</SuperButton></div>
-                    <div><SuperButton onClick={sortUp}>sort down</SuperButton></div>
-                    <div><SuperButton onClick={sortUp}>check 18</SuperButton></div>
+                    <div><SuperButton onClick={sortDown}>sort down</SuperButton></div>
+                    <div><SuperButton onClick={check18}>check 18</SuperButton></div>
                     {/*<div>sort down</div>*/}
                     {/*check 18*/}
                 </div>
