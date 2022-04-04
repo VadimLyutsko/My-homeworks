@@ -3,8 +3,8 @@
     justify-content: space-around;
     align-items: center;
     position: relative;
-    left: -21%;
-    width: 35%;
+    left: -25%;
+    width: 41%;
     margin-top: 1rem;
     margin-bottom: 1rem;
     background: #000;
@@ -12,7 +12,7 @@
     border-radius: 5rem;
     font-size: 1.5rem;
     font-weight: bold;
-    transition: left 0.8s linear;
+    transition: left 1s linear;
 }
 
 .hoverBlock:hover {
@@ -25,14 +25,19 @@
     width: fit-content;
 }
 
-.LinkClassName {
+.link {
     text-decoration: none;
     color: #297dc0;
     font-weight: bold;
     font-size: 1.3rem;
+    padding: 0.5rem;
 }
 
-.LinkClassName :link {
-    color: #80f332;
+.link:hover{
+    color: #ffffff;
+}
+
+.link:active{
+    color: #6be71b;
 }
 

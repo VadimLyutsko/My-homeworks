@@ -1,0 +1,7 @@
+.SuperEditableSpan {
+    display: inline-block;
+    height: 3rem;
+    cursor: pointer;
+    color: #27797c;
+    font-weight: bold;
+}
